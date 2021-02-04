@@ -1,0 +1,190 @@
+.sidebar{
+    height: 300px;
+    background-image: url(https://www.guesttruckandvan.co.uk/wp-content/uploads/2018/01/CV-Show-Slider-Background.jpg);
+}
+
+.idcContent{
+    height: 80%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-navigation{
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(http://www.cvhldgs.com/wp-content/uploads/2017/03/bg.jpg);
+}
+
+li {
+    list-style-type: none;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.navLink {
+    font-family: Helvetica;
+    text-decoration: none;
+    color: white;
+}
+
+.idcContent h3{
+    font-family: sans-serif;
+    font-size: 160%;
+    line-height: 0;
+}
+
+.idcContent h5 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .sidebar{
+        height: 400px;
+    }
+
+    .item-navigation{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .idcContent{
+        height: 30%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+       
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .idcContent h3{
+        font-size: 120%;
+        line-height: 0;
+        font-weight: 600;
+
+    }
+    
+    .idcContent h5 {
+        font-size: 16px;
+        font-weight: 80;
+        margin:0; 
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+
+    .sidebar{
+        height: 400px;
+    }
+
+    .item-navigation{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .idcContent{
+        height: 30%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+       
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .idcContent h3{
+        font-size: 120%;
+        line-height: 0;
+        font-weight: 600;
+    }
+    
+    .idcContent h5 {
+        font-size: 16px;
+        font-weight: 80;
+        margin:0; 
+    } 
+}
+
+@media screen and (max-width: 414px) {
+    .sidebar{
+        height: 400px;
+    }
+
+    .item-navigation{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .idcContent{
+        height: 30%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+       
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .idcContent h3{
+        font-size: 120%;
+        line-height: 0;
+        font-weight: 600;
+
+    }
+    
+    .idcContent h5 {
+        font-size: 16px;
+        font-weight: 80;
+        margin:0; 
+    }
+
+}
+
+
+

@@ -1,0 +1,109 @@
+.section-apropos{
+    background-color: #DCDCDC;
+    margin:0;
+    height: 70vh;
+}
+
+.Bilal_image{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.aprpos-title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.aprpos-title p {
+    font-size: 90%;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.aprpos-title h2{
+    font-size: 160%;
+    font-weight: 900;
+}
+
+.description-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apropos-description{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 50%;
+    text-align: justify;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .section-apropos{
+        height: 100vh;
+    }
+
+    .Bilal_image{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .description-container{
+        flex-direction: column;
+    }
+
+    .apropos-description{
+        width: 80%;
+    }
+  
+}
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .section-apropos{
+        height: 100%;
+    }
+
+    .Bilal_image{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .description-container{
+        flex-direction: column;
+    }
+
+    .apropos-description{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width: 414px) {
+    .section-apropos{
+        height: 100%;
+    }
+ 
+    .Bilal_image{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .description-container{
+        
+        flex-direction: column;
+    }
+
+    .apropos-description{
+        width: 80%;
+    }
+    
+    
+
+ }
