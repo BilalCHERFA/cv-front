@@ -32,32 +32,13 @@
     border-radius: 10px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .section-container{
-        border: solid black;
-    }
-    
-    .skills-container{
-        border: solid blue; 
-    }
-    
-    .skill{
-        border: solid green;
-    }
-    
-    .description-skill{
-        border: solid violet; 
-    }
-}
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
     .section-container{
-        border: solid black;
         height: 125vh;
     }
     
     .skills-container{
-        border: solid blue;
         height: 70%;
         flex-direction: column;
     } 
@@ -65,12 +46,10 @@
 
 @media screen and (max-width: 414px) {
     .section-container{
-        border: solid black;
         height: 200vh;
     }
     
     .skills-container{
-        border: solid blue;
         height: 80%;
         flex-direction: column;
     }
