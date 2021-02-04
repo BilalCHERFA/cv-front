@@ -1,0 +1,91 @@
+.project_image{
+    margin-top: 30px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid rgba(201, 148, 148, 0.125);
+    box-shadow: 0 2px 10px 0 rgba(5, 3, 3, 0.77); 
+}
+
+.section-achiev{
+    background-color: #DCDCDC;
+    height: 100vh;
+}
+
+.achiev-container{
+    height: 68%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.achiev{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(201, 148, 148, 0.125);
+    box-shadow: 0 2px 10px 0 rgba(5, 3, 3, 0.77); 
+    width: 30%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .achiev{
+        height: 430px;
+        width: 47%;
+    }
+
+    .section-achiev{
+        height: 150vh;
+    }
+
+    .achiev-container{
+        height: 60%;
+    }
+}
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .achiev{
+        width: 45%;  
+        height: 350px;
+        text-align: center;
+    }
+
+    .project_image{
+        margin-top: 5px;
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .achiev-container{
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .project_image{
+        margin-top: 5px;
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+        border: 1px solid rgba(201, 148, 148, 0.125);
+    }
+    
+    .section-achiev{
+        height: 180vh;
+    }
+    
+    .achiev-container{
+        flex-direction: column;
+    }
+    
+    .achiev{
+        width: 80%;
+        height: 340px;
+        text-align: center;
+    }
+}
