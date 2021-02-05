@@ -12,6 +12,19 @@
     align-items: center;
 }
 
+.idcContent a{
+ text-decoration: none;
+ color: white;
+ height: 40px;
+ width: 150px;
+ border: solid #4682B4;
+ border-radius: 10px;
+ background-color:#4682B4;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .item-navigation{
     height: 20%;
     margin: 0;

@@ -22,6 +22,7 @@ const Navigation = () => {
             <div className="idcContent">
                 <h3>{apropos.firstname} {apropos.lastname}</h3>
                 <h5> {apropos.title}</h5>
+                <a href="./media/CvBilalCHERFA.pdf" target="_blank">Télécharger le Cv</a>
             </div>  
             
             <ul className="item-navigation">
