@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import axios from 'axios';import {BACK_URL, DOMAIN_URL} from '../../http';
+import axios from 'axios';
+import {BACK_URL, DOMAIN_URL} from '../../http';
 import Navigation from '../navigation/Navigation';
 import './experience.css';
 
@@ -34,8 +35,8 @@ const Experience = () => {
                             </div> 
                         </div>
                     ))} 
-                </div> 
-        </div>
+            </div> 
+    </div>
     );
 };
 

@@ -1,13 +1,43 @@
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-  
+.diplome-container{
+    background-color: #DCDCDC;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
-@media screen and (min-width: 415px) and (max-width: 768px) {
-  
-    
-}
-@media screen and (max-width: 414px) {
-   
 
+.diplome-map{
+    padding-top: 80px;
+    width: 52%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
 }
+
+.diplome-date{
+    width:20%;
+    text-align: center;
+    color: white;
+    background-color: #1ba39c;
+    line-height: 10px;
+}
+
+.description-diplome{
+    width: 800px;
+    padding-left: 20px;
+}
+
+.description-diplome h3 {
+    margin-top: 0;
+}
+
+.description-diplome h4 {
+    padding-left: 20px;
+}
+
+.description-diplome h5 {
+    padding-left: 35px;
+}
+
+
